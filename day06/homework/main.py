@@ -57,3 +57,4 @@ print(f"you are{age} years old")
 Num1 = input("enter first number: ")
 Num2 = input("enter second number: ")
 print(Num1 + Num2)
+#რადგან ხდება concatenation ტექსტის მიბმა მაგ: მომხმარებელმა რომ შეიყვანოს 5 და 6 Piton ფიქრობს რომ ეს არიას "5" და "6" ამიტომაც ის ატყუპებს ერთმანეთს.
