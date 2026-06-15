@@ -1,0 +1,66 @@
+.movies{
+    list-style-type: upper-latin;
+    list-style-position: outside;
+}
+
+
+.countries{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+
+.days{
+    list-style-type: lower-latin;
+}
+
+
+.products{
+    list-style: none;
+    padding: 0;
+}
+
+
+.products li{
+    background-color: blue;
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+/* border-radius გამოიყენება ელემენტის კუთხეების მოსამრგვალებლად.
+მას შეიძლება გადაეცეს 1-დან 4-მდე მნიშვნელობა. */
+
+
+
+
+
+form{
+    background-color: lightblue;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+input:hover {
+    background-color: rgb(4, 12, 244);
+}
+
+
+label:hover  {
+    color: red;
+    font-size: 18px;
+}
+
+input:active {
+    text-shadow: 2px 2px 5px black;
+}
+
+
+
+
+/* border-collapse გამოიყენება table-თან ის განსაძღვრავს უჯრედის საზღვრებს. */
+
+
+/* nth-child-selector ირჩევს ელემენტებს მათი რიგის მიხედვით მშობელში. */

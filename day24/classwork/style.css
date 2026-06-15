@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+p:hover{
+    text-shadow: 2px 2px 5px blueviolet;
+    font-family:"satisfy", cursive;
+    color:blue
+}
+
+a:hover{
+    text-shadow: 2px 2px 4px;
+
+}
+
+a:visited{
+    color: aqua;
+
+}
+
+a:active{
+    color: aquamarine;
+}

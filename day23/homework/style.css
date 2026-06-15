@@ -1,0 +1,53 @@
+#text-purple{
+    color: blueviolet;
+}
+#rgb-purple{
+    color: rgb(134, 44, 218);
+}
+#hex-purple{
+    color: #800080;
+}
+
+
+.btn-green{
+    background-color: rgb(0, 128, 0);
+    border-color: 2px solid rgb(255, 165, 0);
+}
+.btn-red{
+    background-color: #8B0000;
+    border: 1px double #0000FF;
+}
+
+
+#img1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid darkred;
+}
+#img2{
+    width: 150px;
+    height: 150px;
+    border: 3px solid dashed blue;
+}
+#img3{
+    width: 200px;
+    height: 200px;
+    border: 4px solid dotted purple;
+}
+#img4{
+    width: 250px;
+    height: 250px;
+    border: 2px solid double green ;
+}
+
+
+#container{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+#child{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}

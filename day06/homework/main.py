@@ -1,60 +1,43 @@
-#დავალებ2
-#1რიცხვით დაწყება მაგ:1name
-#2აბსურდული სახელები ან გაუგებარი
-#3გამოტოვებები ცვლადის სახელში მაგ:first name
-#4დიდი და პატარა ასოების არევა უმიზეზოდ მაგ;name,NAME,nAmE
-
-#დავალება3
-#debugging ეწოდება კიდში შეცდომების (bugs) პოვნას და მის გასწორებას.
+#დავალება1
+#type() ფუნქცია აბრუნებს იმ ტიპს,რომელსაც გადავცემტ არგუმენტად.
+#int
+print(type(5))
+#float
+print(type(3,14))
+#str 
+print(type("hello"))
+#bool
+print(type(True))
+#დავალება2
+name = "anna"
+surname = "gvianishvili"
+age = 16
 
 #დავალება4
-#SintaxError-კოდის წერის წესის დარღვევა.
-#TypeError-არათავსებადი მონაცემტა ტიპები(მაგ:რიცხვი+ტექსტი).
-#NameError- ცვლადის არარსებული სახელი.
-#ValueError-არასწეი მნიშვნელობა.
-#IndexError-ინდექსი არ არსებობს სიაში.
-#IndentationError-არასწორი დაშორებები.
-
+num1 = float(input("enter number 1: "))
+num2 = float(input("enter number 2: "))
+num3 = float(input("enrer number 3: "))
+num4 = float(input("enter number 3: "))
+num5 = float(input("enter number 5: "))
+sum_numbers = num1 + num2 + num3 + num4 + num5
+average = sum_numbers / 5
+print("avarage:")
+#დავალება3
+num1 = float(input("enter first desimal number: "))
+num2 = float(input("enter second decimal number: "))
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+division = num1 / num2
+print("addition")
+print("subtraction")
+print("multiplication")
+print("division")
 #დავალება5
-#1
-name = 'Lika'
-print(name)
-#2
-number = 5
-text = 'apples'
-result =str(number) + text
-print(result)
-
-name = "Lika"
-name2 = name + "4"
-
-first_user = "Lika"
-second_user = "Giorgi"
-print(first_user)
-
-fiest_name = 'Data'
-last_name = 'ramdom'
-
-first_user = 'Lika'
-second_user = 'Giorgi'
-print(first_user)
-
-
-#დავალება7
-city = input('enter city: ')
-district = input('enter district: ')
-building = input('enter building: ')
-floor = input('enter floor: ')
-print("your address is: ", city, district, building, floor)
-
-
-#დავალება8
-age = input("enter your age: ")
-print(f"you are{age} years old")
-
-
-#დავალება9
-Num1 = input("enter first number: ")
-Num2 = input("enter second number: ")
-print(Num1 + Num2)
-#რადგან ხდება concatenation ტექსტის მიბმა მაგ: მომხმარებელმა რომ შეიყვანოს 5 და 6 Piton ფიქრობს რომ ეს არიას "5" და "6" ამიტომაც ის ატყუპებს ერთმანეთს.
+celsius = float(input("enter temperature in celsius"))
+fahrenheit = celsius * 9/5 + 32
+print("temperature in fahrenheit:")
+#დავალება6
+fahrenheit = float(input("enter temperature in fahrenheit: "))
+celsius = (fahrenheit - 32) * 5/9
+print("temperature in celsius: ")

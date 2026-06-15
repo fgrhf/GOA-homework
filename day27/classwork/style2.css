@@ -1,0 +1,42 @@
+.container{
+    border:1px solid rgb(239, 239, 239);
+    width: 100px;
+    height: 400px;
+    display: flex;
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+}
+
+
+.child{
+    background: black;
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+}
+
+/* flex-growს default value:0 */
+/* flex Shrinkს default value:1 */
+
+#div1{
+    flex-grow: 1;
+    /* flex-shrink: 3; */
+    background-color: aqua;
+}
+
+#div2{
+    flex-grow: 1;
+    /* flex-shrink: 2; */
+    background-color: blueviolet;
+}
+
+#div3{
+    flex-grow: 1;
+    /* flex-shrink: 1; */
+    background-color: blue;
+}
+
+#div1:hover,#div2:hover,#div3:hover{
+    flex-grow: 3;
+}
+

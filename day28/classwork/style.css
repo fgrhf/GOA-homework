@@ -1,0 +1,42 @@
+#box1{
+    height: 500ppx;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.absolute-img{
+    position: absolute;
+    left: 30px;
+    top:20px;
+}
+
+
+.back-to-top{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-family: 25px;
+    background-color: brown;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer
+}
+
+h1{
+    position: relative;
+    right: 130px;
+    bottom: 350px;
+}
+
+/*
+left,right,top,bottom
+positions: 
+static -> default მიუვება ელემენტთა განალაგების დინებას (flow).
+absolute- არღვევს  ელემენტის დინებას (flow)
+relative -> არ არღვევს ელემენტის დინებას (flow). ამ დროს ელემენტი თავისის static - ური პოზიციიდან იწყებს გადაადგილებას.
+fixed-ამ დროს ელემენტი გაჩერდება კონკრეტულ კოორდინატებზე და სქროლვის დროს გამოყვება ეკრანს.
+sticky-ელემენტი თავდაპირველად ინარჩუნებს თავის პოზიციას, ჩამოსქროლვისას ჩერდება top პოზიციაზე
+*/

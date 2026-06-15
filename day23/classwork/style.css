@@ -1,0 +1,21 @@
+#box1{
+    background-color: #ff00ff;
+
+}
+#box2{
+    background-color: rgb(50,255,50)
+}
+#box3{
+    color: blue ;
+}
+
+#main-container{
+    width: 600px;
+    height:200px;
+}
+#one{
+    width: 150px;
+}
+#two{
+    width:50%;
+}
