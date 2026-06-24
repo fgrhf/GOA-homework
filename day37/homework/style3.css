@@ -1,0 +1,50 @@
+.social-container {
+    background-color: #2b2c2c;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 12px;
+    width: 500px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    background-color: #181919; 
+    color: #a5b1b2; 
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 22px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.social-icon.fb:hover {
+    color: #1877f2;
+    box-shadow: 0 0 15px #1877f2, inset 0 0 10px #1877f2;
+}
+
+.social-icon.tw:hover {
+    color: #1da1f2;
+    box-shadow: 0 0 15px #1da1f2, inset 0 0 10px #1da1f2;
+}
+
+.social-icon.ig:hover {
+    color: #e1306c;
+    box-shadow: 0 0 15px #e1306c, inset 0 0 10px #e1306c;
+}
+
+.social-icon.ln:hover {
+    color: #0077b5;
+    box-shadow: 0 0 15px #0077b5, inset 0 0 10px #0077b5;
+}
+
+.social-icon.yt:hover {
+    color: #ff0000;
+    box-shadow: 0 0 15px #ff0000, inset 0 0 10px #ff0000;
+}

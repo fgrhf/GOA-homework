@@ -1,0 +1,92 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+.card-container {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden; 
+}
+
+
+.card {
+    flex: 1;
+    padding: 40px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sedan { background-color: #e28525; }
+.suv { background-color: #016972; }
+.luxury { background-color: #00403f; }
+
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+
+.card h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+    flex-grow: 1; 
+}
+
+
+.btn {
+    background-color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+}
+
+
+.sedan .btn { color: #e28525; }
+.suv .btn { color: #016972; }
+.luxury .btn { color: #00403f; }
+
+
+@media (max-width: 768px) {
+    .card-container {
+    flex-direction: column;
+    }
+    
+.card p {
+    margin-bottom: 30px; 
+    }
+}

@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 40px;
+    width: 360px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+}
+
+.sign-in-card {
+    background-color: #f8fafc;
+}
+
+.sign-in-card h2 {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.sign-in-card .input-group {
+    margin-bottom: 20px;
+}
+
+.sign-in-card label {
+    display: block;
+    font-size: 14px;
+    color: #94a3b8;
+    margin-bottom: 8px;
+}
+
+.sign-in-card input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 25px;
+    font-size: 14px;
+    background-color: #fff;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper .eye-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #94a3b8;
+    cursor: pointer;
+}
+
+/* --- მეორე ფორმის სტილები (Event Registration) --- */
+.event-card {
+    background: linear-gradient(180deg, #4c1d95 0%, #1e1b4b 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-align: center;
+}
+
+.event-card h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+.event-card .subtitle {
+    color: #cbd5e1;
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+
+.event-card .input-group {
+    margin-bottom: 25px;
+}
+
+.event-card .row {
+    display: flex;
+    gap: 15px;
+}
+
+.event-card .width-50 {
+    width: 50%;
+}
+
+.event-card input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 10px 5px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.event-card input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* --- ღილაკების სტილები --- */
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+
+.btn-purple {
+    background-color: #6366f1;
+}
+
+.btn-purple:hover {
+    background-color: #4f46e5;
+}
+
+.btn-pink {
+    background-color: #ec4899;
+}
+
+.btn-pink:hover {
+    background-color: #db2777;
+}

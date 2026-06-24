@@ -1,0 +1,121 @@
+
+.movies-list {
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+
+
+.countries-list {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+
+.week-days {
+    list-style-type: lower-latin;
+}
+
+
+.products-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.products-list li {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 8px;
+}
+
+/* დავალება 6:
+border-radius თვისება გამოიყენება ელემენტის კუთხეების დასამრგვალებლად.
+მას შეიძლება გადაეცეს 1-დან 4-მდე მნიშვნელობა:
+1 მნიშვნელობა: ოთხივე კუთხე ერთნაირად მრგვალდება.
+2 მნიშვნელობა: პირველი (ზედა-მარცხენა და ქვედა-მარჯვენა), მეორე (ზედა-მარჯვენა და ქვედა-მარცხენა).
+3 მნიშვნელობა: პირველი (ზედა-მარცხენა), მეორე (ზედა-მარჯვენა და ქვედა-მარცხენა), მესამე (ქვედა-მარჯვენა).
+4 მნიშვნელობა: ოთხივე კუთხე ინდივიდუალურად (საათის ისრის მიმართულებით).
+/
+
+/
+დავალება 7: border-radius მნიშვნელობების სქემა (საათის ისრის მიმართულებით)
+
+         
+         1. top-left               2. top-right
+         ┌────────────────────────┐
+         │                        │
+         │                        │
+         │                        │
+         └────────────────────────┘
+         4. bottom-left            3. bottom-right
+
+თუ ვწერთ: border-radius: 10px 20px 30px 40px;
+ცვლილება აისახება შემდეგი თანმიმდევრობით:
+1) ზედა-მარცხენა (Top-Left) -> 10px
+2) ზედა-მარჯვენა (Top-Right) -> 20px
+3) ქვედა-მარჯვენა (Bottom-Right) -> 30px
+4) ქვედა-მარცხენა (Bottom-Left) -> 40px
+*/
+
+
+.form-container {
+    background-color: #e0f2fe; 
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 20px auto;
+    font-family: sans-serif;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    transition: all 0.3s ease; /* გლუვი გადასვლისთვის */
+}
+
+.form-container input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+
+.form-group:hover input {
+    background-color: #1e40af;
+    color: white; 
+}
+
+.form-group:hover label {
+    color: #dc2626;
+    font-size: 18px;
+}
+
+
+.form-container input:active {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/*border-collapse თვისება განსაზღვრავს, როგორ გამოისახება ცხრილის (table) და მისი უჯრედების (td, th) ჩარჩოები.
+მას აქვს ორი მთავარი მნიშვნელობა:
+
+1) separate (ნაგულისხმევი) - თითოეულ უჯრედს აქვს თავისი დამოუკიდებელი ჩარჩო, რის გამოც ჩარჩოებს შორის ჩნდება დაშორებები (ორმაგი ხაზებივით ჩანს).
+2) collapse - უჯრედების მეზობელი ჩარჩოები ერთიანდება (ერწყმის ერთმანეთს) ერთ სუფთა, ერთმაგ ხაზად.*/
+
+/*:nth-child() ფსევდო-სელექტორი  საშუალებას გვაძლევს მოვნიშნოთ ელემენტები მათი მშობელი კონტეინერის შიგნით არსებული რიგითი ნომრის (ინდექსის) მიხედვით.
+
+ის პარამეტრად იღებს ციფრს, ფორმულას ან საკვანძო სიტყვას:
+
+1) კონკრეტული ნომერი - მაგალითად, li:nth-child(3) მონიშნავს ზუსტად მესამე ელემენტს.
+2) საკვანძო სიტყვები: 
+odd (კენტი): მონიშნავს 1-ელ, მე-3, მე-5 და ა.შ. ელემენტებს.
+even (ლუწი): მონიშნავს მე-2, მე-4, მე-6 და ა.შ. ელემენტებს.
+3) ფორმულა (xn + y) - მაგალითად, :nth-child(3n) მონიშნავს ყოველ მესამე ელემენტს (3, 6, 9...).
+*/

@@ -1,0 +1,49 @@
+/* body{
+    background-image: url('https://wallpaperswide.com/download/natures_mirror-wallpaper-3000x2000.jpg');
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-size: cover;
+} */ 
+
+/* 
+background properties:
+background-image: url('')
+background-repeat
+background-position
+background-size: px,%,contain (max scale w/out distortion cover
+*/
+
+
+/*
+transform: translate(x,y) მდებარეობას უცვლის ელემენტს
+transform: scale ზომას უცვლის ელემენტს .(0-0.9 პატარავდება;1,1< იზრდება)
+transform: rotate აბრუნებს ელეემენტს. დადებითი საათის ისრის მიმარტულებით უარყოპითი საათის ისრის საწინააღმდეგოდ
+*/
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    transform: translate(150px, 40px);
+}
+
+/* #box:hover{
+    transform: translate(150px, 40px);
+}   */
+
+#box:hover{
+    transform: scale(2);
+} 
+
+#box:hover{
+    transform: rotate(45deg);
+}
+
+
