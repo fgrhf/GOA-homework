@@ -1,0 +1,52 @@
+/* 1. display: flex; 
+ეს თვისება მშობელ ელემენტს აქცევს Flex კონტეინერად. მასში მოთავსებული შვილები ხდებიან flex-ელემენტები და ავტომატურად განლაგდებიან ერთ ხაზზე (ჰორიზონტალურად).
+
+justify-content;
+ეს თვისება გამოიყენება შვილების ჰორიზონტალურად (მთავარი ღერძის გასწვრივ) გასასწორებლად. მაგალითად: ცენტრში, დასაწყისში, ბოლოში ან მათ შორის თანაბარი დაშორებების დასატოვებლად.
+
+align-items;
+ეს თვისება გამოიყენება შვილების ვერტიკალურად (პერპენდიკულარული ღერძის გასწვრივ) გასასწორებლად, მაგალითად: ცენტრში, ზედა თუ ქვედა კიდეზე გასასწორებლად.
+*/
+
+.main-box {
+    display: flex;
+    align-items: flex-end;
+    height: 200px; 
+    background-color: #f0f0f0; 
+}
+
+.parent-box {
+    display: flex;
+    justify-content: center; 
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+
+.container-div p {
+    display: inline; 
+    border: 2px solid #333;
+    padding: 5px;
+    margin: 5px;
+}
+
+.container-div {
+    align-items: center;       
+    justify-content: flex-end;  
+    height: 150px;
+    background-color: #ddd;
+}
+
+.square-box {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    background-color: #ccc;
+}
+
+.square-box img {
+    width: 100px; 
+    height: auto;
+    margin: 10px;
+}

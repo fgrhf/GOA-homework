@@ -1,0 +1,82 @@
+/* დავალება 1 */
+.container-1 {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 10px;
+    gap: 10px;
+}
+
+.container-1 div {
+    background-color: coral;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.box-1 { flex-grow: 1; }
+.box-2 { flex-grow: 2; }
+.box-3 { flex-grow: 3; }
+.box-4 { flex-grow: 4; }
+
+
+
+/* დაავლება 2 */
+.container-2 {
+    display: flex;
+    width: 600px; 
+    background-color: #f0f0f0;
+    padding: 10px;
+    gap: 10px;
+}
+
+.container-2 div {
+    background-color: coral;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex-basis: 400px; 
+}
+
+.shrink-1 { flex-shrink: 2; }
+.shrink-2 { flex-shrink: 1; }
+.shrink-3 { flex-shrink: 2; }
+
+
+
+/* დავალება 3 */
+.direction-container {
+    display: flex;
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    gap: 10px;
+    width: 300px;
+    min-height: 150px;
+}
+
+.direction-container div {
+    background-color: coral;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row-dir {
+    flex-direction: row;
+}
+
+.col-dir {
+    flex-direction: column;
+}
+
+.row-rev-dir {
+    flex-direction: row-reverse;
+}
+
+.col-rev-dir {
+    flex-direction: column-reverse;
+}
